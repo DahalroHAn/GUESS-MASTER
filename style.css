@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    height:645px;
+    background-image: url(back.jpeg);
+    background-size: cover;
+    
+}
+.container{
+    border:2px solid white;
+    box-shadow: 5px 5px 80px white;
+    border-radius: 10px;
+    height:330px;
+    width:480px; 
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+}
+img{
+    height:80px;
+    width:80px;
+    align-self: center;
+    margin-top:10px;
+    border-radius: 50%;
+    border: 2px solid #d8dddf;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.07);
+}
+#Text{
+    text-align: center;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Paytone One;
+    font-weight: 10;
+    color:#7f5cfe;
+    
+    
+    
+}
+#buttondiv{
+  height:100px;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  margin-top: 0px;
+}
+input{
+  width:120px;  
+  height:40px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+button{
+    width:90px;
+    height:40px;
+    cursor: pointer;
+    background-color: #ffc56c;
+    border: 1px solid #ffc56c;
+    
+    border-radius: 5px;
+}
+#BottomText{
+    display: flex;
+    justify-content:space-between;
+    padding:10px;
+}
+#button2{
+    margin-top:10px;
+    align-self: center;
+    width:110px;
+    height:35px;
+}
+button:hover{
+    background-color: transparent;
+    color:#ffc56c;
+}
+.rules{
+    height:100px;
+    width:480px;
+    background-color: white;
+    border-radius: 10px;
+}
+#result{
+    
+    width: 80%;
+    
+    height: 30px;
+    align-self: center;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Poppins;
+    align-content: center;
+}
+#previous{
+    width:80%;
+    text-align: center;
+    align-self: center;
+}

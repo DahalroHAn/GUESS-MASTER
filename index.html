@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS MASTER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+   <div class="container">
+       <div id="Text">
+             <img src="logo.png" alt="Logo">
+             <p style="opacity: 0.7;">Hi, I am a Stupid Robot. 
+                Can you help me find my age?</p>
+       </div>
+
+  <!-- Button -->
+       <div id="buttondiv">
+            <input type="text" id="usernum" name="input" autocomplete="off" required>
+            <button id="button1" type="submit">CHECK</button><br>
+
+       </div>
+
+       <p id="previous"></p>
+       <h3 id="result" style="font-size: 15px;"></h3>
+       <button id="button2">START NEW</button>
+
+       
+        
+   </div>    
+
+
+   <!-- Second Div -->
+
+   <div class="rules">
+      <div id="BottomText">
+         <div id="BottomText1">
+           <h3 style="font-family: Paytone One;">Rules:</h3>
+           <p>Only Number.</p>
+           <p>10 Chances Only.</p>
+           <p>Cannot be >100 & < 0 </p>
+         </div>
+
+         <div id="BottomText2">
+            <p id="chances">Chances:10</p>
+            <p id="wasted"></p>
+         </div>
+   </div>
+   </div>
+
+
+
+
+<script src="JS.js"></script>    
+</body>
+</html>
